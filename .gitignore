@@ -1,0 +1,26 @@
+# IDE files
+target/
+.idea.bak/
+.idea
+*/.idea
+server.iml.bak
+*.iml
+*.ipr
+*.iws
+*.ids
+*/.settings
+.settings/*
+.project
+*/.project
+*/.classpath
+*/out
+out/
+# osx
+.DS_Store
+*/.DS_Store
+# mvn
+*/target
+target
+# vim
+.*.swp
+work/
