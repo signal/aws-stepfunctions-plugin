@@ -1,10 +1,9 @@
 <j:jelly xmlns:j="jelly:core" xmlns:f="/lib/form">
     <f:entry>
         <table width="100%">
-            <!-- <f:entry title="Use instance credentials" field="useInstanceCredentials">
+             <f:entry title="Use instance credentials" field="useInstanceCredentials">
                 <f:checkbox />
             </f:entry>
-            -->
             <f:entry title="AWS Access Key ID" field="awsAccessKeyId">
                 <f:textbox />
             </f:entry>
@@ -14,11 +13,11 @@
             <f:entry title="AWS Region" field="awsRegion">
                 <f:textbox />
             </f:entry>
-            <f:entry title="Function Name" field="stateMachineArn">
+            <f:entry title="State Machine ARN" field="stateMachineArn">
                 <f:textbox />
             </f:entry>
             <f:entry title="Poll Interval (seconds)" field="pollIntervalSeconds" default="30">
-                <f:number />
+                <f:textbox />
             </f:entry>
             <f:entry title="Payload" field="payload">
                 <f:textbox />
